@@ -1,4 +1,5 @@
 public class Person {
+    // Instance variables
     private String firstName;
     private String lastName;
     private String phoneNumber;
@@ -7,6 +8,7 @@ public class Person {
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
     }
+    // Getters
     public String getFirstName() {
         return firstName;
     }
@@ -26,6 +28,7 @@ public class Person {
         this.phoneNumber = phoneNumber;
     }
 
+    // Generic Person toString
     public String toString(){
         return firstName + " " + lastName + " — #" + phoneNumber;
     }

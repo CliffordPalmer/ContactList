@@ -1,4 +1,5 @@
 public class Parent extends Person{
+    // Parent-specific instance variables
     private int numberOfKids;
 
     public Parent(String firstName, String lastName, String phoneNumber, int numberOfKids){
@@ -6,6 +7,7 @@ public class Parent extends Person{
         this.numberOfKids = numberOfKids;
     }
 
+    // Getters and Setters
     public int getNumberOfKids() {
         return numberOfKids;
     }
@@ -14,6 +16,7 @@ public class Parent extends Person{
         this.numberOfKids = numberOfKids;
     }
 
+    // Parent specific toString
     public String toString(){
         return super.toString() + " Number of Kids: " + numberOfKids;
     }
